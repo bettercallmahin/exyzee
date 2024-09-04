@@ -1,6 +1,7 @@
 # EXYZEE Optical Fashion Website
 
 This project is a static website for **EXYZEE Optical Fashions**, designed to showcase the brand's unique eyewear collection. The website features a modern, clean design that highlights the brand's products, vendors, and contact information. It’s built using HTML and CSS, providing a responsive and visually appealing interface.
+There are more modifications needed to be made.
 
 ## Features
 
