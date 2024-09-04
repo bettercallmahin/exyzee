@@ -1,0 +1,381 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat";
+}
+
+/* ------ site setting starts ---------- */
+
+h1 {
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  /* 60px */
+}
+
+h2 {
+  font-weight: 300;
+  font-size: 44px;
+}
+
+h3 {
+  color: #a3855e;
+  font-family: Montserrat;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+  /* 38px */
+}
+
+h4 {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 140%;
+}
+
+h5 {
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 170%;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+}
+
+h6 {
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%;
+}
+
+p {
+  color: #000;
+  font-family: "DM Sans";
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 170%;
+  /* 35.7px */
+}
+
+.container {
+  max-width: 1300px;
+  margin: auto;
+}
+
+button {
+  color: #243976;
+  font-family: Montserrat;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  text-transform: uppercase;
+  padding: 20px 40px;
+  border-radius: 2px;
+  background: #fff;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+/* ------ site setting ends ---------- */
+
+/* ------ header starts ---------- */
+header {
+  background-image: url("assets/header_bg.png");
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px;
+}
+
+nav li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  font-family: "DM Sans";
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  /* 25.2px */
+}
+
+.nav-btn {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-btn p {
+  color: #bd9a6d;
+  font-family: "DM Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  /* 21.6px */
+}
+
+.nav-btn h4 {
+  color: #bd9a6d;
+  font-family: "DM Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  /* 28.8px */
+}
+
+/* ------ header ends ---------- */
+
+/* -------- hero starts -------- */
+#hero {
+  padding: 280px 15px 380px 15px;
+  background-image: url("assets/hero_bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#hero button {
+  margin-top: 32px;
+}
+
+/* -------- hero ends -------- */
+
+/* -------- about starts ------------- */
+#about {
+  padding: 96px 0;
+}
+
+.about-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.about-container-top,
+.about-container-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-container-bottom {
+  margin-top: 56px;
+  align-items: center;
+}
+
+.about-container-top h2,
+.about-container-bottom-left {
+  width: 40%;
+  color: #243976;
+}
+
+.about-container-top p,
+.about-container-bottom-right {
+  width: 55%;
+}
+
+.years-block {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.frame-block {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.years,
+.frames {
+  display: block;
+  width: 50%;
+  padding: 40px;
+  border-radius: 4px;
+  border: 2px solid rgba(163, 133, 94, 0.5);
+  box-sizing: border-box;
+}
+
+/* ---- vendors start ------- */
+#vendors {
+  padding: 82px 0;
+  background-image: url("assets/vendors_bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.vendors-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.vendor-carosole {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#vendors h3 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+  /* 39.2px */
+}
+
+#vendors button {
+  margin-top: 16px;
+  padding: 16px 40px;
+  border-radius: 2px;
+  border: 1px solid #fff;
+  background-color: #00000000;
+  color: #fff;
+}
+
+/* ---- vendors end ------- */
+
+/* -------- footer starts --------- */
+footer {
+  background: url("assets/footer_img.png"), #dde6ff;
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-blend-mode: multiply;
+}
+
+.footer-container {
+  padding: 56px 0;
+}
+
+footer button {
+  display: flex;
+  padding: 10px 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background: #243976;
+  color: #fff;
+  margin-top: 56px;
+}
+
+.footer-container-section-top {
+  margin-top: 48px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-container-section-top img {
+  width: 80%;
+  object-fit: cover;
+}
+
+.footer-container-section-bottom {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.copyright {
+  margin-top: 48px;
+}
+
+/* -------- footer ends --------- */
+
+/* =============================
+            responsive
+   ============================= */
+@media only screen and (max-width: 767px) {
+  header {
+    display: none;
+  }
+
+  .about-container-top,
+  .about-container-bottom,
+  .vendor-carosole,
+  .footer-container-section-bottom,
+  .footer-container-section-top {
+    flex-direction: column;
+  }
+
+  .vendor-carosole {
+    gap: 20px;
+  }
+
+  h1 {
+    font-size: 36px;
+    padding-right: 50px;
+  }
+
+  #hero button {
+    font-size: 16px;
+  }
+
+  /* -------- about starts ------------- */
+  #about {
+    padding: 56px 20px;
+  }
+
+  .about-container-top {
+    flex-direction: column;
+  }
+
+  .about-container-bottom {
+    flex-direction: column-reverse;
+    gap: 30px;
+  }
+
+  .about-container-top h2,
+  .about-container-bottom-left {
+    width: 100%;
+  }
+
+  .about-container-bottom-left {
+    padding-bottom: 30px;
+  }
+
+  .about-container-top p,
+  .about-container-bottom-right {
+    width: 100%;
+  }
+
+  footer {
+    padding: 20px;
+  }
+  footer .footer_line {
+    width: 50%;
+  }
+
+  footer button {
+    margin: auto;
+  }
+
+  .footer-container-section-bottom {
+    gap: 10px;
+  }
+ 
+}
