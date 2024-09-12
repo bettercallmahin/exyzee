@@ -79,7 +79,7 @@ button {
   line-height: 140%;
   text-transform: uppercase;
   padding: 20px 40px;
-  border-radius: 2px;
+  border-radius: 10px;
   background: #fff;
   border: none;
   display: flex;
@@ -257,6 +257,16 @@ nav li a {
   color: #fff;
 }
 
+#vendors button:hover {
+  margin-top: 16px;
+  padding: 16px 40px;
+  border-radius: 2px;
+  border: 1px solid #fff;
+  background-color: #ffffff;
+  color: #000000;
+  transition: 0.5s;
+}
+
 /* ---- vendors end ------- */
 
 /* -------- footer starts --------- */
@@ -280,6 +290,19 @@ footer button {
   background: #243976;
   color: #fff;
   margin-top: 56px;
+}
+
+footer button:hover {
+  display: flex;
+  padding: 10px 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background: #dde6ff;
+  color: #243976;
+  margin-top: 56px;
+  outline: 1px solid #243976; //use this for border radius, otherwise the layout changes
+  outline-offset: -1px;
 }
 
 .footer-container-section-top {
@@ -366,6 +389,7 @@ footer button {
   footer {
     padding: 20px;
   }
+
   footer .footer_line {
     width: 50%;
   }
@@ -377,5 +401,5 @@ footer button {
   .footer-container-section-bottom {
     gap: 10px;
   }
- 
+
 }
