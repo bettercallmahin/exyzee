@@ -301,7 +301,7 @@ footer button:hover {
   background: #dde6ff;
   color: #243976;
   margin-top: 56px;
-  outline: 1px solid #243976; //use this for border radius, otherwise the layout changes
+  outline: 1px solid #243976; // use this for border radius, otherwise the layout changes
   outline-offset: -1px;
 }
 
